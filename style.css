@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #edfff7; 
+    color: #065929; 
+}
+
+#planta {
+    text-align: center;
+    font-size: 20px;
+}
+
+#busca {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+figcaption {
+  font-size: 17px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #16227e; 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #000879;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #044cf4;
+    color: rgb(255, 255, 255);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #16227e;
+}
+
+.card-planta h2 {
+    color: #000879; 
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.card-planta p {
+    margin: 10px 0;
+}
+
+.erro {
+    color: #d32f2f;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #ef9a9a;
+    background-color: #ffebee;
+    border-radius: 6px;
+}
+
+a {
+    color: #044cf4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

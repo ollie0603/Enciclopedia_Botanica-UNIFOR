@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nomePopular": "Costela de Adão",
+        "nomeCientifico": "Monstera deliciosa",
+        "familia": "Araceae",
+        "descricao": "Uma planta tropical popular conhecida por suas folhas grandes, brilhantes e perfuradas. Excelente para ambientes internos."
+    },
+    {
+        "id": 2,
+        "nomePopular": "Espada de São Jorge",
+        "nomeCientifico": "Sansevieria trifasciata",
+        "familia": "Asparagaceae",
+        "descricao": "Extremamente resistente e fácil de cuidar, é conhecida por purificar o ar. Tem folhas rígidas e verticais."
+    },
+    {
+        "id": 3,
+        "nomePopular": "Figueira-Lira",
+        "nomeCientifico": "Ficus lyrata",
+        "familia": "Moraceae",
+        "descricao": "Famosa por suas folhas em formato de lira, grandes e enrugadas. Requer luz brilhante e indireta."
+    },
+    {
+        "id": 4,
+        "nomePopular": "Zamioculca",
+        "nomeCientifico": "Zamioculcas zamiifolia",
+        "familia": "Araceae",
+        "descricao": "Uma planta de baixa manutenção que tolera pouca luz. Armazena água em seus rizomas, sendo resistente à seca."
+    },
+    {
+        "id": 666,
+        "nomePopular": "Planta Poste",
+        "nomeCientifico": "Pālus Mimicus",
+        "familia": "Insidiae",
+        "descricao": "Uma filha da puta que sempre aparece quando você esquece que ela existe. Vinda do quinto dos infernos, ela te obriga a sempre ter uma lança em mão quando está explorando e a perder tempo escaneando toda sala nova que tem postes (ou seja 80% das salas do jogo), gastando preciosos segundos dos ciclos já curtos. Com essa planta por perto você não tem espaço para erros, pois assim que entrar em contato ela te arrastará diretamente para o abismo. Só olha a cara dessa porra."
+    }
+]
