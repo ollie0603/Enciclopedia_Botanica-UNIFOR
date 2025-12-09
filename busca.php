@@ -54,7 +54,7 @@ if (isset($_GET['id'])) {
 <div id="titulo">
     <h1>Enciclopédia Botânica</h1> 
 </div>
-    <p id="voltar"><a href="flora.html">Voltar</a></p>
+    <p id="voltar"><a href="index.html">Voltar</a></p>
     <div id="planta">
     <?php if ($erro): ?>
         <p><?php echo $erro; ?></p>
