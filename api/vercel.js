@@ -98,7 +98,7 @@ export default async function (req, res) {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Enciclopédia Botânica | ${planta ? planta.nomePopular : 'Detalhes'}</title>
-            <link href="style_php.css" rel="stylesheet">
+            <link href="../style_php.css" rel="stylesheet">
         </head>
         <body>
             <div id="titulo">
