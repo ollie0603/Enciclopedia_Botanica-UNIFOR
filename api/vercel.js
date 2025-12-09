@@ -104,7 +104,7 @@ export default async function (req, res) {
             <div id="titulo">
                 <h1>Enciclopédia Botânica</h1> 
             </div>
-            <p id="voltar"><a href="index.html">Voltar</a></p>
+            <p id="voltar"><a href="../index.html">Voltar</a></p>
             ${outputHTML}
             ${planta && planta.id == 666 ? `<div id="scug">...</div>` : ''}
         </body>
