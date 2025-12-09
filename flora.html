@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Encilopédia Botânica | UNIFOR</title>
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <form id="busca" action="./busca.php">
-            <label for="input">Insira o ID da planta:</label>
-            <input type="text" id="input" name="id" autocomplete="off">
-            <input type="submit" value="Buscar">
-        </form> 
-    </body>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enciclopédia Botânica - UNIFOR</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<form id="busca" action="busca.php">
+    <div class="leaf-secondary"></div> 
+    <label for="input">Insira o ID da planta:</label>
+    <input type="text" id="input" name="id" autocomplete="off" >
+    <input type="submit" value="Buscar">
+</form>
+
+
+
+ <div id="card" class="resultado card">
+<div class="leaf-left"></div>
+     </div>
+
+</body>
 </html>

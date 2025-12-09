@@ -1,0 +1,159 @@
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(180deg, #e3f1e8 0%, #d9efe3 100%);
+    color: #0b1c60; 
+}
+
+#busca, .resultado {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #003b19; 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #16227e;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #112f9b;
+    color: rgb(255, 255, 255);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00004d;
+}
+
+.card-planta h2 {
+    color: #000879; 
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.card-planta p {
+    margin: 10px 0;
+}
+
+.erro {
+    color: #d32f2f;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #ef9a9a;
+    background-color: #ffebee;
+    border-radius: 6px;
+}
+
+#planta {
+    margin-top: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#titulo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #171d96;
+    color: white;
+}
+
+#titulo h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+#voltar {
+    background-color: #171d96;
+    margin-top: 125px;
+    margin-left: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#voltar:hover {
+    background-color: #16227e;
+}
+
+a {
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+figcaption {
+    font-size: 18px;
+}
+
+#scug {	
+    width: 450px;
+    margin: 0 auto;
+    color: black;
+    line-height: 1;
+    font-size: 10px;
+}
+
+#gamer {
+    color: black;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 10px;
+    margin-left: initial;
+    margin-top: initial;
+    margin-bottom: initial;
+    width: initial;
+    height: initial;
+}
+
+#gamer:visited {
+  color: black;
+}

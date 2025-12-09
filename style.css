@@ -1,88 +1,129 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
     margin: 0;
-    padding: 20px;
-    background-color: #edfff7; 
-    color: #065929; 
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(180deg, #e3f1e8 0%, #d9efe3 100%);
+    color: #0b1c60;
+    overflow-x: hidden;
+    
+    display: flex; 
+    justify-content: center; 
+    min-height: 100vh; 
 }
 
-#planta {
-    text-align: center;
-    font-size: 20px;
+:root {
+    --azul: #171d96;
+    --verde-escuro: #2f7d34;
+    --verde-medio: #44a34a;
+    --verde-claro: #8ae98a;
 }
+
 
 #busca {
-    background: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
-    margin: 40px auto;
-    text-align: left;
+    background: white;
+    width: 60%;
+    max-width: 650px;
+    margin-top: 25vh; 
+    margin-bottom: auto;
+    padding: 25px 40px;
+    border-radius: 20px;
+    border: 3px solid var(--azul);
+    position: relative;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.12);
 }
 
-figcaption {
-  font-size: 17px;
-}
 
-label {
+/* Título */
+#busca label {
     display: block;
-    margin-bottom: 10px;
+    font-size: 20px;
     font-weight: 600;
-    color: #16227e; 
+    margin-bottom: 10px;
 }
 
-input[type="text"] {
+/* Campo de texto */
+#busca input[type="text"] {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid var(--verde-escuro);
+    outline: none;
+    margin-bottom: 15px;
+}
+
+/* Foco do input */
+#busca input[type="text"]:focus {
+    box-shadow: 0 0 8px rgba(30, 150, 34, 0.5);
+}
+
+/* Botão */
+#busca input[type="submit"] {
     width: 100%;
     padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #000879;
-    border-radius: 6px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-input[type="submit"] {
-    background-color: #044cf4;
-    color: rgb(255, 255, 255);
-    padding: 12px 25px;
+    background: var(--azul);
     border: none;
-    border-radius: 6px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+    font-weight: 600;
 }
 
-input[type="submit"]:hover {
-    background-color: #16227e;
+#busca input[type="submit"]:hover {
+    background: #16227e;
 }
 
-.card-planta h2 {
-    color: #000879; 
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 10px;
-    margin-top: 0;
+
+#busca::before {
+    content: "";
+    width: 85px;
+    height: 45px;
+    background: linear-gradient(135deg, var(--verde-medio), var(--verde-escuro));
+    border-radius: 100% 0 100% 0;
+    position: absolute;
+    top: -28px;
+    right: -40px;
+    transform: rotate(18deg);
+    box-shadow: inset 0 0 8px rgba(0, 50, 0, 0.45);
 }
 
-.card-planta p {
-    margin: 10px 0;
+#busca::after {
+    content: "";
+    width: 120px;
+    height: 70px;
+    background: linear-gradient(45deg, var(--verde-medio), var(--verde-escuro));
+    border-radius: 0 100% 0 100%;
+    position: absolute;
+    bottom: -40px;
+    left: -55px;
+    transform: rotate(-12deg);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.35);
+    z-index: 10;
 }
 
-.erro {
-    color: #d32f2f;
-    font-weight: bold;
-    padding: 15px;
-    border: 1px solid #ef9a9a;
-    background-color: #ffebee;
-    border-radius: 6px;
+.leaf-secondary {
+    position: absolute;
+    bottom: -15px;     
+    left: -9px;      
+    width: 70px;
+    height: 50px;
+    background: var(--verde-claro);
+    border-radius: 100% 0 100% 0;
+    transform: rotate(70deg);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.25);
+    border: 2px solid var(--verde-escuro);
+    z-index: 9;       
 }
 
-a {
-    color: #044cf4;
-    text-decoration: none;
+#card {
+    display: none !important;
 }
 
-a:hover {
-    text-decoration: underline;
+
+@media (max-width: 600px) {
+    #busca {
+        width: 85%;
+        padding: 20px;
+    }
 }
